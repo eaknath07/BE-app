@@ -27,6 +27,9 @@ revolte:
               PORT: '#{port}'
               APP_NAME: My Awesome API
               NODE_ENV: staging
+              TEST: '#{port}/12'
+              TEST2: '#{port}/#{port}'
+              TEST3: '#{port}#{port}'
           specifications:
             cpu: 2
             memory: 1
