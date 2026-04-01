@@ -25,7 +25,7 @@ revolte:
             loadBalancerMode: dedicated
             variables:
               PORT: '#{port}'
-              APP_NAME: '"My Awesome API"'
+              APP_NAME: My Awesome API
               NODE_ENV: staging
           specifications:
             cpu: 2
