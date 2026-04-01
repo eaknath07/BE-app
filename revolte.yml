@@ -24,7 +24,9 @@ revolte:
             port: 8080
             loadBalancerMode: dedicated
             variables:
-              BASE_URL: /api/v1
+              PORT: '#{port}'
+              APP_NAME: '"My Awesome API"'
+              NODE_ENV: development
           specifications:
             cpu: 2
             memory: 1
